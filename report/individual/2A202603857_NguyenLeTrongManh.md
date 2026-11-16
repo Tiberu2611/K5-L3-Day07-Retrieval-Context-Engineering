@@ -1,6 +1,6 @@
 # Báo cáo Day 7
 
-> Nhãn chấm câu trả lời (`reviews.json`) và nhãn context 0/1/2 do **Claude (AI) soạn và kiểm tra lại 2 lượt** (lượt 2 sửa citation của A0 dev q20 thành `false`), có lý do cho từng câu. Theo BENCHMARK.md, nhãn do model kiểm tra là chưa đủ: học viên cần đọc và xác nhận trước khi nộp. Benchmark cũng được soạn với hỗ trợ của AI. Lệnh chạy: [src/README.md](../../src/README.md).
+> Nhãn chấm câu trả lời (`reviews.json`) và nhãn context 0/1/2: bản nháp do **Claude (AI) soạn và kiểm tra lại 2 lượt** (lượt 2 sửa citation của A0 dev q20 thành `false`), có lý do cho từng câu; sau đó **học viên đã đọc lại toàn bộ, đối chiếu với context đầy đủ trong `traces_full.json`, và xác nhận** (trường `reviewer` trong từng file). Benchmark cũng được soạn với hỗ trợ của AI. Lệnh chạy: [src/README.md](../../src/README.md).
 
 ## Dữ liệu và benchmark
 
@@ -104,7 +104,7 @@ Nhãn chấm tay: `reviews.json` trong từng thư mục `starter/results/agent-
 - **Search một lượt** (A2) rẻ hơn khoảng 30% so với A1 nhưng mất 2 câu dev.
 
 **Giới hạn:**
-- Nhãn câu trả lời và context do AI soạn và kiểm tra lại 2 lượt; **học viên cần xác nhận** (BENCHMARK.md: model kiểm tra là chưa đủ).
+- Nhãn câu trả lời và context do AI soạn nháp, học viên đọc lại và xác nhận; chỉ có một người chấm, không đo độ đồng thuận giữa người chấm. Hai nhãn là ca biên: A1 dev q16 chấm 2 dù ý "useful for next year" nằm ở chunk lân cận không được trích (nếu chấm 1 thì A1 18 < A3 19 và lựa chọn đổi sang A3); context R1 test t04 chấm 1 dù `C-b3-c11-0038` có câu "until we are certain that it has not been tampered with".
 - Benchmark nhỏ (20 dev / 6 test có đáp án). Cả baseline và cấu hình đã chọn đều đạt 6/6 trên test, nên test không phân biệt được hai cấu hình. Mỗi cấu hình chỉ chạy một lần.
 - Test do chính người xây pipeline soạn (với hỗ trợ của AI), dù được chốt trước khi chạy.
 - Model biết sẵn nội dung Harry Potter, nên số liệu retrieval của agent lạc quan hơn so với một tài liệu model chưa từng thấy.

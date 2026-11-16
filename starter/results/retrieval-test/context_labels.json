@@ -1,6 +1,6 @@
 {
  "scale": "0 = no evidence; 1 = evidence present but missing a condition or source; 2 = enough evidence and source (BENCHMARK.md section 2)",
- "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student",
+ "reviewer": "Nguyen Le Trong Manh (reviewed and confirmed by the student)",
  "R1_dense": {
   "t01": {
    "grade": 2,
