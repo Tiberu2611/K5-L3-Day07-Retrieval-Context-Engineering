@@ -1,0 +1,68 @@
+{
+ "scale": "0 = no evidence; 1 = evidence present but missing a condition or source; 2 = enough evidence and source (BENCHMARK.md section 2)",
+ "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student",
+ "R1_dense": {
+  "t01": {
+   "grade": 2,
+   "reason": "C-b1-c09-0003 has 'if it turns red' and 'glowed scarlet'"
+  },
+  "t02": {
+   "grade": 2,
+   "reason": "C-b1-c14-0008 has 'Won it... game o' cards with a stranger'"
+  },
+  "t03": {
+   "grade": 0,
+   "reason": "no chunk says how to blank the map"
+  },
+  "t04": {
+   "grade": 1,
+   "reason": "C-b3-c12-0021: checked for curses, 'I shall tell you when we've finished checking'; the explicit 'jinx-free' condition (p766) missing"
+  },
+  "t05": {
+   "grade": 0,
+   "reason": "no chunk about the Hufflepuff switch"
+  },
+  "t06": {
+   "grade": 0,
+   "reason": "no chunk with the cat hair"
+  }
+ },
+ "R5_hybrid_rerank_nb": {
+  "t01": {
+   "grade": 2,
+   "reason": "gold chunk C-b1-c09-0003"
+  },
+  "t02": {
+   "grade": 2,
+   "reason": "gold chunk C-b1-c14-0008"
+  },
+  "t03": {
+   "grade": 1,
+   "reason": "C-b3-c14-0015 'wiped the Marauder's Map blank again' but not how (tap + 'Mischief managed')"
+  },
+  "t04": {
+   "grade": 2,
+   "reason": "gold chunk C-b3-c11-0037 'You will have it back if we are sure it is jinx-free'"
+  },
+  "t05": {
+   "grade": 2,
+   "reason": "gold chunk C-b3-c09-0010 'We're playing Hufflepuff instead'"
+  },
+  "t06": {
+   "grade": 0,
+   "reason": "Polyjuice recipe/preparation chunks only; no cat hair"
+  }
+ },
+ "counts": {
+  "R1_dense": {
+   "2": 2,
+   "1": 1,
+   "0": 3
+  },
+  "R5_hybrid_rerank_nb": {
+   "2": 4,
+   "1": 1,
+   "0": 1
+  }
+ }
+}

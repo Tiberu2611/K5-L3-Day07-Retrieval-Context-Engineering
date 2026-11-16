@@ -1,0 +1,80 @@
+[
+ {
+  "query_id": "t01",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Turns red / glowed scarlet, gold chunk p134.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "t02",
+  "status": "answered",
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Won at cards from a stranger (gold p209); hooded stranger at the Hog's Head who offered to play for it (p237).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "t03",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Tap it again and say 'Mischief managed!' (gold p735).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "t04",
+  "status": "answered",
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Back if sure it is jinx-free (gold p766); 'certain that it has not been tampered with' (p766, next chunk).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "t05",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Hufflepuff (gold p713), book filter from the user.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "t06",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Cat hair, potion not for animal transformations (gold p470), after 3 searches.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "u03",
+  "status": "abstain",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Abstained after 3 searches; no claim about Skrewts.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "u04",
+  "status": "abstain",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Trap handled: notes that the passages give passwords from other years only, abstains.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ }
+]

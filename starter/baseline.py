@@ -48,7 +48,9 @@ def validate(chunks, questions):
 
 
 def hit(chunk, gold):
-    return any(chunk['source_id'] == g['source_id'] and chunk['page'] == g['page'] and g['evidence'] in chunk['text'] for g in gold)
+    # A chunk may cross a page break (Day 6 stores metadata.page_end): accept a gold page inside page..page_end.
+    end = chunk.get('metadata', {}).get('page_end', chunk['page'])
+    return any(chunk['source_id'] == g['source_id'] and chunk['page'] <= g['page'] <= end and g['evidence'] in chunk['text'] for g in gold)
 
 
 class TfidfIndex:

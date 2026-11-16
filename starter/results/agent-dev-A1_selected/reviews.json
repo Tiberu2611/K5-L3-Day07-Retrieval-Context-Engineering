@@ -1,0 +1,217 @@
+[
+ {
+  "query_id": "q01",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Grunnings made drills.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q02",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Seven gold Galleons.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q03",
+  "status": "abstain",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Model answered correctly ('Vault seven hundred and thirteen') and listed 2 in-context citations but put no inline [id]; starter run_agent turns that into an abstention -> 0 (citation-format error, same as A0 q14).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q04",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Deepest, most desperate desire; neither knowledge nor truth.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q05",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Only known maker of the Sorcerer's Stone; extra details (gold, Elixir) are in the same chunk.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q06",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Time-Turner from McGonagall, turned back to attend simultaneous lessons.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q07",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Freed if master gives it clothes.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q08",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Fly the car to Hogwarts; gold chunk cited (found on the 2nd search).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q09",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Name written in the air and rearranged into I AM LORD VOLDEMORT.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q10",
+  "status": "answered",
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Harry's sock with the diary inside (c18-0017), Dobby freed (c18-0018).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q11",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Laughter, amusing shape.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q12",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Expecto Patronum.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q13",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Caput Draconis, cited gold chunk. Found on the 3rd search, whose query already contained 'Caput Draconis' (model prior knowledge).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q14",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Invisibility Cloak and exact note text.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q15",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Professor Lupin.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q16",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "The Monster Book of Monsters, a biting book (title in cited p582). 'Useful for the coming year' is in the neighbouring chunk, not the cited one: minor.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q17",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Nimbus Two Thousand; keep quiet or everyone would want one.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q18",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Emergency transport; stick out wand hand, step on board.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q19",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Rooster's crowing, fatal to it (alternative gold p523/524).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q20",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Find but not use it, otherwise gold/Elixir; Dumbledore's explanation p267 cited.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "u01",
+  "status": "abstain",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Abstained after 3 searches, no claim about the winner.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "u02",
+  "status": "abstain",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Abstained after 1 search.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ }
+]

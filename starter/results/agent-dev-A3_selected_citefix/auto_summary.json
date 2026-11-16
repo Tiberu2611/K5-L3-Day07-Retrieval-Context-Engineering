@@ -1,0 +1,37 @@
+{
+ "config": "A3_selected_citefix",
+ "split": "dev",
+ "retrieval": "SELECTED",
+ "model": "claude-opus-5",
+ "max_searches": 3,
+ "budget": 18000,
+ "effort": "medium",
+ "append_missing_citations": true,
+ "hypothesis": "Dev errors A0 q14 / A1 q03: correct answers became abstentions because the model listed in-context citations without inline [id]; render them inline",
+ "N": 22,
+ "errors": 0,
+ "status": {
+  "answered": 20,
+  "abstain": 2
+ },
+ "tool_use": "22/22",
+ "searches_distribution": {
+  "1": 17,
+  "2": 3,
+  "3": 2
+ },
+ "context_evidence_rate": "19/20",
+ "answered_with_citation": "20/20",
+ "abstained_answerable": "0/20",
+ "abstained_unanswerable": "2/2",
+ "avg_context_chars": 8171,
+ "tokens": {
+  "input_tokens": 73542,
+  "output_tokens": 2355,
+  "cache_read_input_tokens": 0,
+  "cache_creation_input_tokens": 0
+ },
+ "cost_usd_total": 0.4266,
+ "median_s": 12.475000000000001,
+ "note": "automatic counts; answer grade, citation support and abstention need manual labels"
+}

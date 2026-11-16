@@ -1,0 +1,1161 @@
+{
+ "summary": {
+  "config": "R1b_dense_nofilter",
+  "method": "dense",
+  "top_k": 3,
+  "use_filter": false,
+  "neighbours": false,
+  "budget": 4000,
+  "N": 20,
+  "hit1": 7,
+  "hit3": 9,
+  "mrr": 0.392,
+  "context_hit": 9,
+  "avg_context_chars": 2652,
+  "median_ms": 65.0,
+  "cost_usd": 0.0,
+  "hypothesis": "Control: R1 without the book filter"
+ },
+ "traces": [
+  {
+   "query_id": "q01",
+   "type": "truc_tiep",
+   "question": "What did the company Mr. Dursley directed make?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c01-0000",
+     "score": 0.8426,
+     "source": "harrypotter.pdf",
+     "page": 12,
+     "page_end": 12,
+     "book_no": 1,
+     "chapter_no": 1,
+     "hit": true,
+     "snippet": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you’d ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c02-0013",
+     "score": 0.809,
+     "source": "harrypotter.pdf",
+     "page": 32,
+     "page_end": 32,
+     "book_no": 1,
+     "chapter_no": 2,
+     "hit": false,
+     "snippet": "But he wished he hadn’t said anything. If there was one thing the Dursleys hated even more than his asking questions, it was his talking about anything acting ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b1-c01-0004",
+     "score": 0.8083,
+     "source": "harrypotter.pdf",
+     "page": 13,
+     "page_end": 14,
+     "book_no": 1,
+     "chapter_no": 1,
+     "hit": false,
+     "snippet": "But on the edge of town, drills were driven out of his mind by something else. As he sat in the usual morning traffic jam, he couldn’t help noticing that there ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b1-c01-0000",
+    "C-b1-c02-0013",
+    "C-b1-c01-0004"
+   ],
+   "context_chars": 2576,
+   "context_hit": true,
+   "elapsed_ms": 53.0
+  },
+  {
+   "query_id": "q02",
+   "type": "dien_dat_lai",
+   "question": "How much money did Harry hand over to Mr. Ollivander for his wand?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c05-0039",
+     "score": 0.8803,
+     "source": "harrypotter.pdf",
+     "page": 82,
+     "page_end": 82,
+     "book_no": 1,
+     "chapter_no": 5,
+     "hit": false,
+     "snippet": "“Tricky customer, eh? Not to worry, we’ll find the perfect match here somewhere — I wonder, now — yes, why not — unusual combination — holly and phoenix ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c05-0036",
+     "score": 0.874,
+     "source": "harrypotter.pdf",
+     "page": 80,
+     "page_end": 81,
+     "book_no": 1,
+     "chapter_no": 5,
+     "hit": false,
+     "snippet": "“I’m sorry to say I sold the wand that did it,” he said softly. “Thirteen-and-a-half inches. Yew. Powerful wand, very powerful, and in the wrong hands . . . ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b1-c05-0037",
+     "score": 0.8708,
+     "source": "harrypotter.pdf",
+     "page": 81,
+     "page_end": 81,
+     "book_no": 1,
+     "chapter_no": 5,
+     "hit": false,
+     "snippet": "“Hmmm,” said Mr. Ollivander, giving Hagrid a piercing look. “Well, now — Mr. Potter. Let me see.” He pulled a long tape measure with silver markings out of his ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "right_page_but_evidence_missing",
+   "context_ids": [
+    "C-b1-c05-0039",
+    "C-b1-c05-0036",
+    "C-b1-c05-0037"
+   ],
+   "context_chars": 2725,
+   "context_hit": false,
+   "elapsed_ms": 67.6
+  },
+  {
+   "query_id": "q03",
+   "type": "truc_tiep",
+   "question": "Which Gringotts vault held the mysterious package Hagrid collected on Hogwarts business?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c05-0020",
+     "score": 0.8547,
+     "source": "harrypotter.pdf",
+     "page": 72,
+     "page_end": 73,
+     "book_no": 1,
+     "chapter_no": 5,
+     "hit": true,
+     "snippet": "“An’ I’ve also got a letter here from Professor Dumbledore,” said Hagrid importantly, throwing out his chest. “It’s about the You-Know-What in vault seven ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c08-0020",
+     "score": 0.8496,
+     "source": "harrypotter.pdf",
+     "page": 131,
+     "page_end": 131,
+     "book_no": 1,
+     "chapter_no": 8,
+     "hit": false,
+     "snippet": "Harry told Hagrid about Snape’s lesson. Hagrid, like Ron, told Harry not to worry about it, that Snape liked hardly any of the students. “But he seemed to ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b1-c08-0021",
+     "score": 0.8451,
+     "source": "harrypotter.pdf",
+     "page": 131,
+     "page_end": 132,
+     "book_no": 1,
+     "chapter_no": 8,
+     "hit": true,
+     "snippet": "out if you know what’s good for you,” said a Gringotts spokesgoblin this afternoon. Harry remembered Ron telling him on the train that someone had tried to rob ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b1-c05-0020",
+    "C-b1-c08-0020",
+    "C-b1-c08-0021"
+   ],
+   "context_chars": 2591,
+   "context_hit": true,
+   "elapsed_ms": 64.9
+  },
+  {
+   "query_id": "q04",
+   "type": "dien_dat_lai",
+   "question": "According to Dumbledore, what does the Mirror of Erised actually reveal to the person looking into it?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c12-0034",
+     "score": 0.8891,
+     "source": "harrypotter.pdf",
+     "page": 192,
+     "page_end": 192,
+     "book_no": 1,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "“And it showed your friend Ron himself as Head Boy.” “How did you know — ?” “I don’t need a cloak to become invisible,” said Dumbledore gently. “Now, can you ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c13-0000",
+     "score": 0.8768,
+     "source": "harrypotter.pdf",
+     "page": 194,
+     "page_end": 194,
+     "book_no": 1,
+     "chapter_no": 13,
+     "hit": false,
+     "snippet": "Dumbledore had convinced Harry not to go looking for the Mirror of Erised again, and for the rest of the Christmas holidays the Invisibility Cloak stayed ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b1-c17-0002",
+     "score": 0.8704,
+     "source": "harrypotter.pdf",
+     "page": 258,
+     "page_end": 258,
+     "book_no": 1,
+     "chapter_no": 17,
+     "hit": false,
+     "snippet": "“Certainly. I have a special gift with trolls — you must have seen what I did to the one in the chamber back there? Unfortunately, while everyone else was ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "right_page_but_evidence_missing",
+   "context_ids": [
+    "C-b1-c12-0034",
+    "C-b1-c13-0000",
+    "C-b1-c17-0002"
+   ],
+   "context_chars": 2463,
+   "context_hit": false,
+   "elapsed_ms": 46.8
+  },
+  {
+   "query_id": "q05",
+   "type": "truc_tiep",
+   "question": "What did Hermione discover Nicolas Flamel is famous for?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c13-0006",
+     "score": 0.8591,
+     "source": "harrypotter.pdf",
+     "page": 197,
+     "page_end": 197,
+     "book_no": 1,
+     "chapter_no": 13,
+     "hit": false,
+     "snippet": "“I’ve found him!” he whispered. “I’ve found Flamel! I told you I’d read the name somewhere before, I read it on the train coming here — listen to this: ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c13-0007",
+     "score": 0.8493,
+     "source": "harrypotter.pdf",
+     "page": 197,
+     "page_end": 198,
+     "book_no": 1,
+     "chapter_no": 13,
+     "hit": true,
+     "snippet": "At last she found what she was looking for. “I knew it! I knew it!” “Are we allowed to speak yet?” said Ron grumpily. Hermione ignored him. “Nicolas Flamel,” ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b1-c13-0008",
+     "score": 0.8425,
+     "source": "harrypotter.pdf",
+     "page": 198,
+     "page_end": 198,
+     "book_no": 1,
+     "chapter_no": 13,
+     "hit": false,
+     "snippet": "centuries, but the only Stone currently in existence belongs to Mr. Nicolas Flamel, the noted alchemist and opera lover. Mr. Flamel, who celebrated his six ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": true,
+   "rr": 0.5,
+   "first_hit_rank": 2,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b1-c13-0006",
+    "C-b1-c13-0007",
+    "C-b1-c13-0008"
+   ],
+   "context_chars": 2716,
+   "context_hit": true,
+   "elapsed_ms": 52.2
+  },
+  {
+   "query_id": "q06",
+   "type": "dien_dat_lai",
+   "question": "How did Hermione manage to attend all of her lessons during the year?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c14-0001",
+     "score": 0.8649,
+     "source": "harrypotter.pdf",
+     "page": 205,
+     "page_end": 206,
+     "book_no": 1,
+     "chapter_no": 14,
+     "hit": false,
+     "snippet": "“But we’re not six hundred years old,” Ron reminded her. “Anyway, what are you studying for, you already know it all.” “What am I studying for? Are you crazy? ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c10-0013",
+     "score": 0.8607,
+     "source": "harrypotter.pdf",
+     "page": 731,
+     "page_end": 731,
+     "book_no": 3,
+     "chapter_no": 10,
+     "hit": false,
+     "snippet": "Two weeks before the end of the term, the sky lightened suddenly to a dazzling, opaline white and the muddy grounds were revealed one morning covered in ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c13-0000",
+     "score": 0.8589,
+     "source": "harrypotter.pdf",
+     "page": 471,
+     "page_end": 471,
+     "book_no": 2,
+     "chapter_no": 13,
+     "hit": false,
+     "snippet": "Hermione remained in the hospital wing for several weeks. There was a flurry of rumor about her disappearance when the rest of the school arrived back from ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "wrong_location",
+   "context_ids": [
+    "C-b1-c14-0001",
+    "C-b3-c10-0013",
+    "C-b2-c13-0000"
+   ],
+   "context_chars": 2615,
+   "context_hit": false,
+   "elapsed_ms": 72.1
+  },
+  {
+   "query_id": "q07",
+   "type": "dieu_kien",
+   "question": "Under what condition can a house-elf like Dobby be set free?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b2-c02-0003",
+     "score": 0.8671,
+     "source": "harrypotter.pdf",
+     "page": 293,
+     "page_end": 293,
+     "book_no": 2,
+     "chapter_no": 2,
+     "hit": false,
+     "snippet": "“Dobby had to punish himself, sir,” said the elf, who had gone slightly cross-eyed. “Dobby almost spoke ill of his family, sir. . . .” “Your family?” “The ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b2-c02-0001",
+     "score": 0.8504,
+     "source": "harrypotter.pdf",
+     "page": 291,
+     "page_end": 292,
+     "book_no": 2,
+     "chapter_no": 2,
+     "hit": false,
+     "snippet": "“Th-thank you,” said Harry, edging along the wall and sinking into his desk chair, next to Hedwig, who was asleep in her large cage. He wanted to ask, “What ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c03-0008",
+     "score": 0.8435,
+     "source": "harrypotter.pdf",
+     "page": 305,
+     "page_end": 306,
+     "book_no": 2,
+     "chapter_no": 3,
+     "hit": false,
+     "snippet": "Harry had heard these rumors about Malfoy’s family before, and they didn’t surprise him at all. Malfoy made Dudley Dursley look like a kind, thoughtful, and ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "wrong_location",
+   "context_ids": [
+    "C-b2-c02-0003",
+    "C-b2-c02-0001",
+    "C-b2-c03-0008"
+   ],
+   "context_chars": 3037,
+   "context_hit": false,
+   "elapsed_ms": 64.7
+  },
+  {
+   "query_id": "q08",
+   "type": "dien_dat_lai",
+   "question": "When the barrier to the platform would not let them through, how did Ron propose they get to school?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c06-0008",
+     "score": 0.8579,
+     "source": "harrypotter.pdf",
+     "page": 89,
+     "page_end": 89,
+     "book_no": 1,
+     "chapter_no": 6,
+     "hit": false,
+     "snippet": "She pointed at the last and youngest of her sons. He was tall, thin, and gangling, with freckles, big hands and feet, and a long nose. “Yes,” said Harry. “The ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c05-0027",
+     "score": 0.8509,
+     "source": "harrypotter.pdf",
+     "page": 645,
+     "page_end": 645,
+     "book_no": 3,
+     "chapter_no": 5,
+     "hit": false,
+     "snippet": "“Firs’ years this way!” called a familiar voice. Harry, Ron, and Hermione turned and saw the gigantic outline of Hagrid at the other end of the platform, ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c05-0007",
+     "score": 0.8457,
+     "source": "harrypotter.pdf",
+     "page": 338,
+     "page_end": 339,
+     "book_no": 2,
+     "chapter_no": 5,
+     "hit": false,
+     "snippet": "“We’re stuck, right? And we’ve got to get to school, haven’t we? And even underage wizards are allowed to use magic if it’s a real emergency, section nineteen ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "right_page_but_evidence_missing",
+   "context_ids": [
+    "C-b1-c06-0008",
+    "C-b3-c05-0027",
+    "C-b2-c05-0007"
+   ],
+   "context_chars": 2540,
+   "context_hit": false,
+   "elapsed_ms": 90.1
+  },
+  {
+   "query_id": "q09",
+   "type": "dien_dat_lai",
+   "question": "How did Tom Riddle show Harry that he and Lord Voldemort are the same person?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b2-c17-0014",
+     "score": 0.8734,
+     "source": "harrypotter.pdf",
+     "page": 542,
+     "page_end": 543,
+     "book_no": 2,
+     "chapter_no": 17,
+     "hit": true,
+     "snippet": "He pulled Harry’s wand from his pocket and began to trace it through the air, writing three shimmering words: TOM MARVOLO RIDDLE Then he waved the wand once, ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b2-c18-0004",
+     "score": 0.8663,
+     "source": "harrypotter.pdf",
+     "page": 555,
+     "page_end": 555,
+     "book_no": 2,
+     "chapter_no": 18,
+     "hit": false,
+     "snippet": "“Very few people know that Lord Voldemort was once called Tom Riddle. I taught him myself, fifty years ago, at Hogwarts. He disappeared after leaving the ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c17-0013",
+     "score": 0.8616,
+     "source": "harrypotter.pdf",
+     "page": 542,
+     "page_end": 542,
+     "book_no": 2,
+     "chapter_no": 17,
+     "hit": false,
+     "snippet": "“So I made Ginny write her own farewell on the wall and come down here to wait. She struggled and cried and became very boring. But there isn’t much life left ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b2-c17-0014",
+    "C-b2-c18-0004",
+    "C-b2-c17-0013"
+   ],
+   "context_chars": 3040,
+   "context_hit": true,
+   "elapsed_ms": 61.4
+  },
+  {
+   "query_id": "q10",
+   "type": "truc_tiep",
+   "question": "What item did Lucius Malfoy unknowingly give Dobby that set him free?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b2-c18-0018",
+     "score": 0.8753,
+     "source": "harrypotter.pdf",
+     "page": 562,
+     "page_end": 562,
+     "book_no": 2,
+     "chapter_no": 18,
+     "hit": true,
+     "snippet": "Mr. Malfoy ripped the sock off the diary, threw it aside, then looked furiously from the ruined book to Harry. “You’ll meet the same sticky end as your parents ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b2-c18-0019",
+     "score": 0.8725,
+     "source": "harrypotter.pdf",
+     "page": 562,
+     "page_end": 563,
+     "book_no": 2,
+     "chapter_no": 18,
+     "hit": false,
+     "snippet": "There was a loud bang, and Mr. Malfoy was thrown backward. He crashed down the stairs, three at a time, landing in a crumpled heap on the landing below. He got ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c18-0012",
+     "score": 0.8441,
+     "source": "harrypotter.pdf",
+     "page": 559,
+     "page_end": 559,
+     "book_no": 2,
+     "chapter_no": 18,
+     "hit": false,
+     "snippet": "Harry got up and crossed to the door. He had just reached for the handle, however, when the door burst open so violently that it bounced back off the wall. ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b2-c18-0018",
+    "C-b2-c18-0019",
+    "C-b2-c18-0012"
+   ],
+   "context_chars": 2742,
+   "context_hit": true,
+   "elapsed_ms": 61.1
+  },
+  {
+   "query_id": "q11",
+   "type": "dien_dat_lai",
+   "question": "What does Lupin say ultimately defeats a boggart?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b3-c07-0020",
+     "score": 0.8745,
+     "source": "harrypotter.pdf",
+     "page": 685,
+     "page_end": 686,
+     "book_no": 3,
+     "chapter_no": 7,
+     "hit": false,
+     "snippet": "“When the boggart bursts out of this wardrobe, Neville, and sees you, it will assume the form of Professor Snape,” said Lupin. “And you will raise your wand — ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c07-0017",
+     "score": 0.8745,
+     "source": "harrypotter.pdf",
+     "page": 684,
+     "page_end": 684,
+     "book_no": 3,
+     "chapter_no": 7,
+     "hit": false,
+     "snippet": "“This means,” said Professor Lupin, choosing to ignore Neville’s small sputter of terror, “that we have a huge advantage over the boggart before we begin. Have ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b3-c08-0023",
+     "score": 0.8635,
+     "source": "harrypotter.pdf",
+     "page": 701,
+     "page_end": 702,
+     "book_no": 3,
+     "chapter_no": 8,
+     "hit": false,
+     "snippet": "“How did you know about that?” Harry asked. “Professor McGonagall told me,” said Lupin, passing Harry a chipped mug of tea. “You’re not worried, are you?” ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "right_page_but_evidence_missing",
+   "context_ids": [
+    "C-b3-c07-0020",
+    "C-b3-c07-0017",
+    "C-b3-c08-0023"
+   ],
+   "context_chars": 2755,
+   "context_hit": false,
+   "elapsed_ms": 54.4
+  },
+  {
+   "query_id": "q12",
+   "type": "truc_tiep",
+   "question": "What incantation does Lupin teach Harry for producing a Patronus?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b3-c12-0006",
+     "score": 0.89,
+     "source": "harrypotter.pdf",
+     "page": 771,
+     "page_end": 771,
+     "book_no": 3,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "“Okay,” said Harry, trying to sound as though he wasn’t apprehensive at all and merely glad that Lupin had found such a good substitute for a real dementor. ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c12-0007",
+     "score": 0.8789,
+     "source": "harrypotter.pdf",
+     "page": 771,
+     "page_end": 772,
+     "book_no": 3,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "Harry had a sudden vision of himself crouching behind a Hagrid-sized figure holding a large club. Professor Lupin continued, “The Patronus is a kind of ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b3-c12-0008",
+     "score": 0.8711,
+     "source": "harrypotter.pdf",
+     "page": 772,
+     "page_end": 772,
+     "book_no": 3,
+     "chapter_no": 12,
+     "hit": true,
+     "snippet": "“Right,” he said, trying to recall as exactly as possible the wonderful, soaring sensation of his stomach. “The incantation is this —” Lupin cleared his ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": true,
+   "rr": 0.3333333333333333,
+   "first_hit_rank": 3,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b3-c12-0006",
+    "C-b3-c12-0007",
+    "C-b3-c12-0008"
+   ],
+   "context_chars": 2390,
+   "context_hit": true,
+   "elapsed_ms": 75.0
+  },
+  {
+   "query_id": "q13",
+   "type": "metadata_filter",
+   "question": "What password let the students into Gryffindor Tower at the start of the year?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b3-c12-0028",
+     "score": 0.8433,
+     "source": "harrypotter.pdf",
+     "page": 781,
+     "page_end": 782,
+     "book_no": 3,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "They turned into the corridor to Gryffindor Tower and saw Neville Longbottom, pleading with Sir Cadogan, who seemed to be refusing him entrance. “I wrote them ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b2-c05-0020",
+     "score": 0.83,
+     "source": "harrypotter.pdf",
+     "page": 344,
+     "page_end": 345,
+     "book_no": 2,
+     "chapter_no": 5,
+     "hit": false,
+     "snippet": "Every year, this aged old hat, patched, frayed, and dirty, sorted new students into the four Hogwarts Houses (Gryffindor, Hufflepuff, Ravenclaw, and ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c05-0032",
+     "score": 0.8298,
+     "source": "harrypotter.pdf",
+     "page": 350,
+     "page_end": 350,
+     "book_no": 2,
+     "chapter_no": 5,
+     "hit": false,
+     "snippet": "When they had eaten as many sandwiches as they could (the plate kept refilling itself), they rose and left the office, treading the familiar path to Gryffindor ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "wrong_location",
+   "context_ids": [
+    "C-b3-c12-0028",
+    "C-b2-c05-0020",
+    "C-b2-c05-0032"
+   ],
+   "context_chars": 2749,
+   "context_hit": false,
+   "elapsed_ms": 74.9
+  },
+  {
+   "query_id": "q14",
+   "type": "metadata_filter",
+   "question": "Harry got an unsigned Christmas present this year. What was it and what did the note say?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c12-0013",
+     "score": 0.8779,
+     "source": "harrypotter.pdf",
+     "page": 182,
+     "page_end": 182,
+     "book_no": 1,
+     "chapter_no": 12,
+     "hit": true,
+     "snippet": "“It’s an Invisibility Cloak,” said Ron, a look of awe on his face. “I’m sure it is — try it on.” Harry threw the Cloak around his shoulders and Ron gave a ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c12-0011",
+     "score": 0.8731,
+     "source": "harrypotter.pdf",
+     "page": 181,
+     "page_end": 181,
+     "book_no": 1,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "Harry picked up the top parcel. It was wrapped in thick brown paper and scrawled across it was To Harry, from Hagrid. Inside was a roughly cut wooden flute. ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c12-0011",
+     "score": 0.8672,
+     "source": "harrypotter.pdf",
+     "page": 458,
+     "page_end": 459,
+     "book_no": 2,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "The rest of Harry’s Christmas presents were far more satisfactory. Hagrid had sent him a large tin of treacle toffee, which Harry decided to soften by the fire ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b1-c12-0013",
+    "C-b1-c12-0011",
+    "C-b2-c12-0011"
+   ],
+   "context_chars": 2732,
+   "context_hit": true,
+   "elapsed_ms": 72.7
+  },
+  {
+   "query_id": "q15",
+   "type": "metadata_filter",
+   "question": "Who did Dumbledore announce as the new Defense Against the Dark Arts teacher at the start-of-term feast?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b3-c05-0037",
+     "score": 0.8512,
+     "source": "harrypotter.pdf",
+     "page": 650,
+     "page_end": 650,
+     "book_no": 3,
+     "chapter_no": 5,
+     "hit": true,
+     "snippet": "“On a happier note,” he continued, “I am pleased to welcome two new teachers to our ranks this year. “First, Professor Lupin, who has kindly consented to fill ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c18-0014",
+     "score": 0.8487,
+     "source": "harrypotter.pdf",
+     "page": 873,
+     "page_end": 873,
+     "book_no": 3,
+     "chapter_no": 18,
+     "hit": false,
+     "snippet": "“He’s here, Sirius,” said Lupin heavily. “He’s teaching here as well.” He looked up at Harry, Ron, and Hermione. “Professor Snape was at school with us. He ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b3-c10-0036",
+     "score": 0.8436,
+     "source": "harrypotter.pdf",
+     "page": 742,
+     "page_end": 743,
+     "book_no": 3,
+     "chapter_no": 10,
+     "hit": false,
+     "snippet": "“You know that the dementors have searched my pub twice?” said Madam Rosmerta, a slight edge to her voice. “Scared all my customers away. . . . It’s very bad ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b3-c05-0037",
+    "C-b3-c18-0014",
+    "C-b3-c10-0036"
+   ],
+   "context_chars": 2468,
+   "context_hit": true,
+   "elapsed_ms": 82.4
+  },
+  {
+   "query_id": "q16",
+   "type": "metadata_filter",
+   "question": "What birthday present did Hagrid send Harry this year?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b2-c12-0011",
+     "score": 0.855,
+     "source": "harrypotter.pdf",
+     "page": 458,
+     "page_end": 459,
+     "book_no": 2,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "The rest of Harry’s Christmas presents were far more satisfactory. Hagrid had sent him a large tin of treacle toffee, which Harry decided to soften by the fire ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c04-0002",
+     "score": 0.8471,
+     "source": "harrypotter.pdf",
+     "page": 51,
+     "page_end": 52,
+     "book_no": 1,
+     "chapter_no": 4,
+     "hit": false,
+     "snippet": "“Anyway — Harry,” said the giant, turning his back on the Dursleys, “a very happy birthday to yeh. Got summat fer yeh here — I mighta sat on it at some point, ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b1-c08-0022",
+     "score": 0.8357,
+     "source": "harrypotter.pdf",
+     "page": 132,
+     "page_end": 132,
+     "book_no": 1,
+     "chapter_no": 8,
+     "hit": false,
+     "snippet": "As Harry and Ron walked back to the castle for dinner, their pockets weighed down with rock cakes they’d been too polite to refuse, Harry thought that none of ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "wrong_location",
+   "context_ids": [
+    "C-b2-c12-0011",
+    "C-b1-c04-0002",
+    "C-b1-c08-0022"
+   ],
+   "context_chars": 2158,
+   "context_hit": false,
+   "elapsed_ms": 54.9
+  },
+  {
+   "query_id": "q17",
+   "type": "metadata_filter",
+   "question": "Which broomstick model arrived for Harry in a parcel, and why was he told to keep it quiet?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b3-c12-0020",
+     "score": 0.8601,
+     "source": "harrypotter.pdf",
+     "page": 777,
+     "page_end": 778,
+     "book_no": 3,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "“Bad news, Harry. I’ve just been to see Professor McGonagall about the Firebolt. She — er — got a bit shirty with me. Told me I’d got my priorities wrong. ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c10-0005",
+     "score": 0.8593,
+     "source": "harrypotter.pdf",
+     "page": 152,
+     "page_end": 153,
+     "book_no": 1,
+     "chapter_no": 10,
+     "hit": false,
+     "snippet": "Harry had a lot of trouble keeping his mind on his lessons that day. It kept wandering up to the dormitory where his new broomstick was lying under his bed, or ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b3-c10-0014",
+     "score": 0.8591,
+     "source": "harrypotter.pdf",
+     "page": 731,
+     "page_end": 732,
+     "book_no": 3,
+     "chapter_no": 10,
+     "hit": false,
+     "snippet": "Resigned to the fact that he would be the only third year staying behind again, Harry borrowed a copy of Which Broomstick from Wood, and decided to spend the ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "wrong_location",
+   "context_ids": [
+    "C-b3-c12-0020",
+    "C-b1-c10-0005",
+    "C-b3-c10-0014"
+   ],
+   "context_chars": 2611,
+   "context_hit": false,
+   "elapsed_ms": 52.1
+  },
+  {
+   "query_id": "q18",
+   "type": "dien_dat_lai",
+   "question": "What service does the Knight Bus provide, and how do you call it?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b3-c03-0004",
+     "score": 0.8243,
+     "source": "harrypotter.pdf",
+     "page": 599,
+     "page_end": 600,
+     "book_no": 3,
+     "chapter_no": 3,
+     "hit": false,
+     "snippet": "Harry stepped backward. His legs hit his trunk and he tripped. His wand flew out of his hand as he flung out an arm to break his fall, and he landed, hard, in ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c03-0018",
+     "score": 0.8174,
+     "source": "harrypotter.pdf",
+     "page": 606,
+     "page_end": 607,
+     "book_no": 3,
+     "chapter_no": 3,
+     "hit": false,
+     "snippet": "Finally, Harry was the only passenger left. “Right then, Neville,” said Stan, clapping his hands, “whereabouts in London?” “Diagon Alley,” said Harry. ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b3-c03-0016",
+     "score": 0.8169,
+     "source": "harrypotter.pdf",
+     "page": 605,
+     "page_end": 606,
+     "book_no": 3,
+     "chapter_no": 3,
+     "hit": false,
+     "snippet": "“An’ now ’e’s out,” said Stan, examining the newspaper picture of Black’s gaunt face again. “Never been a breakout from Azkaban before, ’as there, Ern? Beats ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "right_page_but_evidence_missing",
+   "context_ids": [
+    "C-b3-c03-0004",
+    "C-b3-c03-0018",
+    "C-b3-c03-0016"
+   ],
+   "context_chars": 2672,
+   "context_hit": false,
+   "elapsed_ms": 73.1
+  },
+  {
+   "query_id": "q19",
+   "type": "dieu_kien",
+   "question": "What is the only thing a basilisk runs away from, and what does it do to the creature?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b2-c16-0013",
+     "score": 0.8332,
+     "source": "harrypotter.pdf",
+     "page": 524,
+     "page_end": 524,
+     "book_no": 2,
+     "chapter_no": 16,
+     "hit": true,
+     "snippet": "“‘The Basilisk flees only from the crowing of the rooster, which is fatal to it’!” he read aloud. “Hagrid’s roosters were killed! The Heir of Slytherin didn’t ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b2-c16-0011",
+     "score": 0.8319,
+     "source": "harrypotter.pdf",
+     "page": 523,
+     "page_end": 523,
+     "book_no": 2,
+     "chapter_no": 16,
+     "hit": true,
+     "snippet": "fixed with the beam of its eye shall suffer instant death. Spiders flee before the Basilisk, for it is their mortal enemy, and the Basilisk flees only from the ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c16-0012",
+     "score": 0.8311,
+     "source": "harrypotter.pdf",
+     "page": 523,
+     "page_end": 524,
+     "book_no": 2,
+     "chapter_no": 16,
+     "hit": false,
+     "snippet": "“The basilisk kills people by looking at them. But no one’s died — because no one looked it straight in the eye. Colin saw it through his camera. The basilisk ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b2-c16-0013",
+    "C-b2-c16-0011",
+    "C-b2-c16-0012"
+   ],
+   "context_chars": 2642,
+   "context_hit": true,
+   "elapsed_ms": 96.6
+  },
+  {
+   "query_id": "q20",
+   "type": "dieu_kien",
+   "question": "Under what condition could someone get the Stone out of the Mirror of Erised?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c17-0002",
+     "score": 0.8468,
+     "source": "harrypotter.pdf",
+     "page": 258,
+     "page_end": 258,
+     "book_no": 1,
+     "chapter_no": 17,
+     "hit": false,
+     "snippet": "“Certainly. I have a special gift with trolls — you must have seen what I did to the one in the chamber back there? Unfortunately, while everyone else was ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c12-0025",
+     "score": 0.834,
+     "source": "harrypotter.pdf",
+     "page": 187,
+     "page_end": 187,
+     "book_no": 1,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "It was a magnificent mirror, as high as the ceiling, with an ornate gold frame, standing on two clawed feet. There was an inscription carved around the top: ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b1-c17-0005",
+     "score": 0.8297,
+     "source": "harrypotter.pdf",
+     "page": 259,
+     "page_end": 260,
+     "book_no": 1,
+     "chapter_no": 17,
+     "hit": false,
+     "snippet": "Quirrell’s voice trailed away. Harry was remembering his trip to Diagon Alley — how could he have been so stupid? He’d seen Quirrell there that very day, ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "wrong_location",
+   "context_ids": [
+    "C-b1-c17-0002",
+    "C-b1-c12-0025",
+    "C-b1-c17-0005"
+   ],
+   "context_chars": 2825,
+   "context_hit": false,
+   "elapsed_ms": 65.1
+  }
+ ]
+}

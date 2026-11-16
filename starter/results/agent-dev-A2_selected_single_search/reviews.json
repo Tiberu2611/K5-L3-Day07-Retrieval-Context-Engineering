@@ -1,0 +1,213 @@
+[
+ {
+  "query_id": "q01",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Drills.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q02",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Seven gold Galleons.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q03",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Vault 713.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q04",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Deepest, most desperate desire.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q05",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Only known maker of the Sorcerer's Stone.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q06",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Time-Turner from McGonagall.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q07",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Clothes from the master; sock detail in same chunk.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q08",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Fly the car following the Hogwarts Express; cited p338 chunk supports it (alternative to the gold quote). 'Ford Anglia' is not in the chunk but does not change the answer.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q09",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Anagram written in the air with the wand.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q10",
+  "status": "answered",
+  "citation_support": [
+   true,
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Harry's sock with the diary, thrown aside by Lucius.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q11",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Laughter.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q12",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Expecto Patronum.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q13",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Caput Draconis, found in one search (query from prior knowledge not needed: R5 with neighbours).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q14",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Invisibility Cloak and note text.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q15",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Professor Lupin.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q16",
+  "status": "abstain",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Abstained: the model asked for a second search but the single-search limit was reached (search_limit). Answerable -> 0.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q17",
+  "status": "abstain",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Abstained (insufficient_evidence): the one search did not return the parcel note (p151).",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q18",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Emergency transport; wand hand, step aboard.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q19",
+  "status": "answered",
+  "citation_support": [
+   true
+  ],
+  "answer_grade": 2,
+  "reason": "Rooster's crowing, fatal.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "q20",
+  "status": "abstain",
+  "citation_support": [],
+  "answer_grade": 0,
+  "reason": "Abstained: the one search missed p267. The model wrote the right answer from memory in its explanation but correctly did not submit it as an answer.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "u01",
+  "status": "abstain",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Abstained, no claim.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ },
+ {
+  "query_id": "u02",
+  "status": "abstain",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Abstained, no claim.",
+  "reviewer": "Claude (AI), 2 review passes; not yet confirmed by the student"
+ }
+]

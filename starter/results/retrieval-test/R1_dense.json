@@ -1,0 +1,365 @@
+{
+ "summary": {
+  "config": "R1_dense",
+  "method": "dense",
+  "top_k": 3,
+  "use_filter": true,
+  "neighbours": false,
+  "budget": 4000,
+  "N": 6,
+  "hit1": 2,
+  "hit3": 2,
+  "mrr": 0.333,
+  "context_hit": 2,
+  "avg_context_chars": 2571,
+  "median_ms": 179.9,
+  "cost_usd": 0.0,
+  "hypothesis": "Baseline = Day 6 strategy C: Day 6 dense retrieval, user-given book filter, top-3"
+ },
+ "traces": [
+  {
+   "query_id": "t01",
+   "type": "truc_tiep",
+   "question": "What does Neville's Remembrall do to show that he has forgotten something?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c09-0003",
+     "score": 0.8737,
+     "source": "harrypotter.pdf",
+     "page": 134,
+     "page_end": 134,
+     "book_no": 1,
+     "chapter_no": 9,
+     "hit": true,
+     "snippet": "Harry hadn’t had a single letter since Hagrid’s note, something that Malfoy had been quick to notice, of course. Malfoy’s eagle owl was always bringing him ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b1-c13-0000",
+     "score": 0.8207,
+     "source": "harrypotter.pdf",
+     "page": 194,
+     "page_end": 194,
+     "book_no": 1,
+     "chapter_no": 13,
+     "hit": false,
+     "snippet": "Dumbledore had convinced Harry not to go looking for the Mirror of Erised again, and for the rest of the Christmas holidays the Invisibility Cloak stayed ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b1-c15-0000",
+     "score": 0.8204,
+     "source": "harrypotter.pdf",
+     "page": 217,
+     "page_end": 217,
+     "book_no": 1,
+     "chapter_no": 15,
+     "hit": false,
+     "snippet": "Things couldn’t have been worse. Filch took them down to Professor McGonagall’s study on the first floor, where they sat and waited without saying a word to ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b1-c09-0003",
+    "C-b1-c13-0000",
+    "C-b1-c15-0000"
+   ],
+   "context_chars": 2780,
+   "context_hit": true,
+   "elapsed_ms": 367.9
+  },
+  {
+   "query_id": "t02",
+   "type": "dien_dat_lai",
+   "question": "How did Hagrid come to own the dragon egg?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b1-c14-0008",
+     "score": 0.8557,
+     "source": "harrypotter.pdf",
+     "page": 209,
+     "page_end": 209,
+     "book_no": 1,
+     "chapter_no": 14,
+     "hit": true,
+     "snippet": "“Where did you get it, Hagrid?” said Ron, crouching over the fire to get a closer look at the egg. “It must’ve cost you a fortune.” “Won it,” said Hagrid. ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c01-0020",
+     "score": 0.8518,
+     "source": "harrypotter.pdf",
+     "page": 582,
+     "page_end": 582,
+     "book_no": 3,
+     "chapter_no": 1,
+     "hit": false,
+     "snippet": "Harry froze. He knew that Hagrid would never send him anything dangerous on purpose, but then, Hagrid didn’t have a normal person’s view of what was dangerous. ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c15-0023",
+     "score": 0.8496,
+     "source": "harrypotter.pdf",
+     "page": 512,
+     "page_end": 513,
+     "book_no": 2,
+     "chapter_no": 15,
+     "hit": false,
+     "snippet": "“I!” said Aragog, clicking angrily. “I was not born in the castle. I come from a distant land. A traveler gave me to Hagrid when I was an egg. Hagrid was only ..."
+    }
+   ],
+   "hit1": true,
+   "hit3": true,
+   "rr": 1.0,
+   "first_hit_rank": 1,
+   "failure_type": "none (hit)",
+   "context_ids": [
+    "C-b1-c14-0008",
+    "C-b3-c01-0020",
+    "C-b2-c15-0023"
+   ],
+   "context_chars": 2903,
+   "context_hit": true,
+   "elapsed_ms": 262.4
+  },
+  {
+   "query_id": "t03",
+   "type": "dieu_kien",
+   "question": "What do you have to do to make the Marauder's Map go blank again?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b2-c15-0031",
+     "score": 0.8313,
+     "source": "harrypotter.pdf",
+     "page": 516,
+     "page_end": 516,
+     "book_no": 2,
+     "chapter_no": 15,
+     "hit": false,
+     "snippet": "“You don’t think — not Moaning Myrtle?”"
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c22-0014",
+     "score": 0.8263,
+     "source": "harrypotter.pdf",
+     "page": 931,
+     "page_end": 931,
+     "book_no": 3,
+     "chapter_no": 22,
+     "hit": false,
+     "snippet": "“Here — I brought this from the Shrieking Shack last night,” he said, handing Harry back the Invisibility Cloak. “And . . .” He hesitated, then held out the ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b3-c10-0022",
+     "score": 0.8209,
+     "source": "harrypotter.pdf",
+     "page": 735,
+     "page_end": 736,
+     "book_no": 3,
+     "chapter_no": 10,
+     "hit": false,
+     "snippet": "What did he have to do? He pulled out the map again and saw, to his astonishment, that a new ink figure had appeared upon it, labeled Harry Potter. This figure ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "right_page_but_evidence_missing",
+   "context_ids": [
+    "C-b2-c15-0031",
+    "C-b3-c22-0014",
+    "C-b3-c10-0022"
+   ],
+   "context_chars": 2009,
+   "context_hit": false,
+   "elapsed_ms": 97.4
+  },
+  {
+   "query_id": "t04",
+   "type": "dieu_kien",
+   "question": "Under what condition would Professor McGonagall give Harry his Firebolt back?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b3-c12-0027",
+     "score": 0.8816,
+     "source": "harrypotter.pdf",
+     "page": 781,
+     "page_end": 781,
+     "book_no": 3,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "Harry’s jaw dropped. She was holding out his Firebolt, and it looked as magnificent as ever. “I can have it back?” Harry said weakly. “Seriously?” “Seriously,” ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c12-0021",
+     "score": 0.8798,
+     "source": "harrypotter.pdf",
+     "page": 778,
+     "page_end": 778,
+     "book_no": 3,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "January faded imperceptibly into February, with no change in the bitterly cold weather. The match against Ravenclaw was drawing nearer and nearer, but Harry ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b3-c11-0038",
+     "score": 0.8784,
+     "source": "harrypotter.pdf",
+     "page": 766,
+     "page_end": 767,
+     "book_no": 3,
+     "chapter_no": 11,
+     "hit": false,
+     "snippet": "“There’s nothing wrong with it!” said Harry, his voice shaking slightly. “Honestly, Professor —” “You can’t know that, Potter,” said Professor McGonagall, ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "right_page_but_evidence_missing",
+   "context_ids": [
+    "C-b3-c12-0027",
+    "C-b3-c12-0021",
+    "C-b3-c11-0038"
+   ],
+   "context_chars": 2678,
+   "context_hit": false,
+   "elapsed_ms": 81.4
+  },
+  {
+   "query_id": "t05",
+   "type": "metadata_filter",
+   "question": "Which team did Gryffindor end up playing in their first Quidditch match of the year?",
+   "filter": {
+    "book_no": 3
+   },
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b3-c13-0010",
+     "score": 0.8523,
+     "source": "harrypotter.pdf",
+     "page": 790,
+     "page_end": 790,
+     "book_no": 3,
+     "chapter_no": 13,
+     "hit": false,
+     "snippet": "The Gryffindor team laughed loudly. Malfoy’s pale eyes narrowed, and he stalked away. They watched him rejoin the rest of the Slytherin team, who put their ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b3-c15-0016",
+     "score": 0.8421,
+     "source": "harrypotter.pdf",
+     "page": 826,
+     "page_end": 826,
+     "book_no": 3,
+     "chapter_no": 15,
+     "hit": false,
+     "snippet": "Never, in anyone’s memory, had a match approached in such a highly charged atmosphere. By the time the holidays were over, tension between the two teams and ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b3-c15-0030",
+     "score": 0.8391,
+     "source": "harrypotter.pdf",
+     "page": 832,
+     "page_end": 833,
+     "book_no": 3,
+     "chapter_no": 15,
+     "hit": false,
+     "snippet": "It was turning into the dirtiest game Harry had ever played in. Enraged that Gryffindor had taken such an early lead, the Slytherins were rapidly resorting to ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "wrong_location",
+   "context_ids": [
+    "C-b3-c13-0010",
+    "C-b3-c15-0016",
+    "C-b3-c15-0030"
+   ],
+   "context_chars": 2464,
+   "context_hit": false,
+   "elapsed_ms": 283.2
+  },
+  {
+   "query_id": "t06",
+   "type": "dien_dat_lai",
+   "question": "Why did Hermione's Polyjuice Potion go wrong?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "C-b2-c10-0006",
+     "score": 0.9013,
+     "source": "harrypotter.pdf",
+     "page": 419,
+     "page_end": 420,
+     "book_no": 2,
+     "chapter_no": 10,
+     "hit": false,
+     "snippet": "Hermione opened Moste Potente Potions carefully, and the three of them bent over the damp-spotted pages. It was clear from a glance why it belonged in the ..."
+    },
+    {
+     "rank": 2,
+     "id": "C-b2-c12-0014",
+     "score": 0.8909,
+     "source": "harrypotter.pdf",
+     "page": 460,
+     "page_end": 460,
+     "book_no": 2,
+     "chapter_no": 12,
+     "hit": false,
+     "snippet": "But Hermione had a steely glint in her eye not unlike the one Professor McGonagall sometimes had. “The potion will be useless without Crabbe’s and Goyle’s ..."
+    },
+    {
+     "rank": 3,
+     "id": "C-b2-c09-0031",
+     "score": 0.8849,
+     "source": "harrypotter.pdf",
+     "page": 415,
+     "page_end": 415,
+     "book_no": 2,
+     "chapter_no": 9,
+     "hit": false,
+     "snippet": "“All right,” said Hermione coldly. “What we’d need to do is to get inside the Slytherin common room and ask Malfoy a few questions without him realizing it’s ..."
+    }
+   ],
+   "hit1": false,
+   "hit3": false,
+   "rr": 0.0,
+   "first_hit_rank": null,
+   "failure_type": "wrong_location",
+   "context_ids": [
+    "C-b2-c10-0006",
+    "C-b2-c12-0014",
+    "C-b2-c09-0031"
+   ],
+   "context_chars": 2593,
+   "context_hit": false,
+   "elapsed_ms": 36.3
+  }
+ ]
+}

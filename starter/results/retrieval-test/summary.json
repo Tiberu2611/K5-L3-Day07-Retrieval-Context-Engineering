@@ -1,0 +1,36 @@
+[
+ {
+  "config": "R1_dense",
+  "method": "dense",
+  "top_k": 3,
+  "use_filter": true,
+  "neighbours": false,
+  "budget": 4000,
+  "N": 6,
+  "hit1": 2,
+  "hit3": 2,
+  "mrr": 0.333,
+  "context_hit": 2,
+  "avg_context_chars": 2571,
+  "median_ms": 179.9,
+  "cost_usd": 0.0,
+  "hypothesis": "Baseline = Day 6 strategy C: Day 6 dense retrieval, user-given book filter, top-3"
+ },
+ {
+  "config": "R5_hybrid_rerank_nb",
+  "method": "hybrid_rerank",
+  "top_k": 3,
+  "use_filter": true,
+  "neighbours": true,
+  "budget": 8000,
+  "N": 6,
+  "hit1": 3,
+  "hit3": 4,
+  "mrr": 0.556,
+  "context_hit": 4,
+  "avg_context_chars": 7524,
+  "median_ms": 3262.5,
+  "cost_usd": 0.0,
+  "hypothesis": "Evidence at a chunk boundary: add previous/next chunk of each hit to context"
+ }
+]

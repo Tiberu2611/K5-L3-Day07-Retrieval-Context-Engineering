@@ -1,0 +1,35 @@
+{
+ "config": "A0_dense",
+ "split": "dev",
+ "retrieval": "R1_dense",
+ "model": "claude-opus-5",
+ "max_searches": 3,
+ "budget": 9000,
+ "effort": "medium",
+ "hypothesis": "Agent baseline on the Day 6 retriever; up to 3 searches (~3 x 2.8k chars fits)",
+ "N": 22,
+ "errors": 0,
+ "status": {
+  "answered": 18,
+  "abstain": 4
+ },
+ "tool_use": "22/22",
+ "searches_distribution": {
+  "1": 17,
+  "3": 5
+ },
+ "context_evidence_rate": "16/20",
+ "answered_with_citation": "18/18",
+ "abstained_answerable": "2/20",
+ "abstained_unanswerable": "2/2",
+ "avg_context_chars": 3254,
+ "tokens": {
+  "input_tokens": 40216,
+  "output_tokens": 2717,
+  "cache_read_input_tokens": 0,
+  "cache_creation_input_tokens": 0
+ },
+ "cost_usd_total": 0.269,
+ "median_s": 11.295,
+ "note": "automatic counts; answer grade, citation support and abstention need manual labels"
+}

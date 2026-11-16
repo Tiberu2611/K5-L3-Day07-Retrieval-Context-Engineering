@@ -6,4 +6,6 @@ Các file `example_*.json` chỉ minh họa định dạng, không đủ để n
 - **Câu có đáp án:** `id`, `split` (`dev` hoặc `test`), `question`, `expected_answer`, `gold`: danh sách `{source_id, page, evidence}`. Với schema mẫu, mỗi evidence phải nằm trọn trong một chunk đúng nguồn và trang; các phần tử `gold` là evidence thay thế. Với câu multi-hop cần nhiều đoạn, bạn có thể mở rộng schema, ghi rõ nhóm evidence bắt buộc và cách chấm. Có thể thêm `filter` do người dùng cung cấp trước.
 - **Câu thiếu evidence:** `id`, `split`, `question`, `answerable: false`, `expected_behavior: "search_and_abstain"`, `absence_reason`. Xem `agent_cases_example.json`.
 
+**Bộ dữ liệu của bài làm:** [questions.json](questions.json) (26 câu có đáp án) và [agent_cases.json](agent_cases.json) (30 câu, gồm 4 câu thiếu evidence), sinh bởi `python src/day7.py prepare` từ benchmark Day 6 và câu mới. Chunk (Harry Potter sách 1–3, có bản quyền, giảng viên chấp nhận dùng cho lab) không được commit; tái tạo ở `starter/data/converted/chunks.json` bằng cùng lệnh, từ repo Day 6.
+
 Không đưa `gold` hoặc nhãn đáp án vào model và retrieval tool. Ghi nguồn dữ liệu và quyền sử dụng. Cách chuyển một số định dạng Day 6: [starter/README.md](../starter/README.md).

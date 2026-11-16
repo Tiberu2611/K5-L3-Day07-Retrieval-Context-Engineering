@@ -1,0 +1,250 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "What did the company Mr. Dursley directed make?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "How much money did Harry hand over to Mr. Ollivander for his wand?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Which Gringotts vault held the mysterious package Hagrid collected on Hogwarts business?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "According to Dumbledore, what does the Mirror of Erised actually reveal to the person looking into it?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "What did Hermione discover Nicolas Flamel is famous for?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "How did Hermione manage to attend all of her lessons during the year?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "type": "dieu_kien",
+  "question": "Under what condition can a house-elf like Dobby be set free?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "When the barrier to the platform would not let them through, how did Ron propose they get to school?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "How did Tom Riddle show Harry that he and Lord Voldemort are the same person?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "What item did Lucius Malfoy unknowingly give Dobby that set him free?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "What does Lupin say ultimately defeats a boggart?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "What incantation does Lupin teach Harry for producing a Patronus?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What password let the students into Gryffindor Tower at the start of the year?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "Harry got an unsigned Christmas present this year. What was it and what did the note say?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "Who did Dumbledore announce as the new Defense Against the Dark Arts teacher at the start-of-term feast?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q16",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What birthday present did Hagrid send Harry this year?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q17",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "Which broomstick model arrived for Harry in a parcel, and why was he told to keep it quiet?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q18",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "What service does the Knight Bus provide, and how do you call it?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q19",
+  "split": "dev",
+  "type": "dieu_kien",
+  "question": "What is the only thing a basilisk runs away from, and what does it do to the creature?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q20",
+  "split": "dev",
+  "type": "dieu_kien",
+  "question": "Under what condition could someone get the Stone out of the Mirror of Erised?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "type": "truc_tiep",
+  "question": "What does Neville's Remembrall do to show that he has forgotten something?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "question": "How did Hagrid come to own the dragon egg?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "type": "dieu_kien",
+  "question": "What do you have to do to make the Marauder's Map go blank again?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "type": "dieu_kien",
+  "question": "Under what condition would Professor McGonagall give Harry his Firebolt back?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "Which team did Gryffindor end up playing in their first Quidditch match of the year?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "question": "Why did Hermione's Polyjuice Potion go wrong?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "type": "thieu_bang_chung",
+  "question": "Who won the Triwizard Tournament?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "The Triwizard Tournament takes place in Book 4; the corpus is Books 1-3.",
+  "absence_check": "regex over all 1800 chunks, 0 matches: {'Triwizard': 0}"
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "type": "thieu_bang_chung",
+  "question": "What is the name of Albus Dumbledore's brother?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Dumbledore's brother is first named in later books; Books 1-3 never mention him.",
+  "absence_check": "regex over all 1800 chunks, 0 matches: {'Aberforth': 0, \"Dumbledore[’']s brother\": 0, 'his brother.{0,40}Dumbledore': 0}"
+ },
+ {
+  "id": "u03",
+  "split": "test",
+  "type": "thieu_bang_chung",
+  "question": "What did the Blast-Ended Skrewts that Hagrid raised eat?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Blast-Ended Skrewts appear only in Book 4.",
+  "absence_check": "regex over all 1800 chunks, 0 matches: {'Skrewt': 0}"
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "type": "thieu_bang_chung",
+  "question": "What was the password to Gryffindor Tower at the start of Harry's fourth year?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "The corpus ends with Harry's third year; passwords of years 1-3 exist (e.g. Caput Draconis), so this is a near-topic trap.",
+  "absence_check": "regex over all 1800 chunks, 0 matches: {'Balderdash': 0}"
+ }
+]

@@ -1,0 +1,518 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "type": "truc_tiep",
+  "origin": "day06 q01 (dev)",
+  "question": "What did the company Mr. Dursley directed make?",
+  "expected_answer": "Drills (the firm was called Grunnings).",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 12,
+    "evidence": "Mr. Dursley was the director of a firm called Grunnings, which made drills."
+   }
+  ],
+  "evidence_notes": [
+   "p12: exact"
+  ]
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "origin": "day06 q02 (dev)",
+  "question": "How much money did Harry hand over to Mr. Ollivander for his wand?",
+  "expected_answer": "Seven gold Galleons.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 82,
+    "evidence": "He paid seven gold Galleons for his wand"
+   }
+  ],
+  "evidence_notes": [
+   "p82: exact"
+  ]
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "type": "truc_tiep",
+  "origin": "day06 q03 (dev)",
+  "question": "Which Gringotts vault held the mysterious package Hagrid collected on Hogwarts business?",
+  "expected_answer": "Vault seven hundred and thirteen (713).",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 72,
+    "evidence": "the You-Know-What in vault seven hundred and thirteen"
+   },
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 73,
+    "evidence": "What’s the You-Know-What in vault seven hundred and thirteen?"
+   },
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 132,
+    "evidence": "Hagrid had emptied vault seven hundred and thirteen, if you could call it emptying, taking out that grubby little package."
+   }
+  ],
+  "evidence_notes": [
+   "p72: exact",
+   "p73: normalized quotes/dashes, copied verbatim from chunk",
+   "p132: exact"
+  ]
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "origin": "day06 q04 (dev)",
+  "question": "According to Dumbledore, what does the Mirror of Erised actually reveal to the person looking into it?",
+  "expected_answer": "Nothing more or less than the deepest, most desperate desire of their heart.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 192,
+    "evidence": "It shows us nothing more or less than the deepest, most desperate desire of our hearts."
+   }
+  ],
+  "evidence_notes": [
+   "p192: exact"
+  ]
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "type": "truc_tiep",
+  "origin": "day06 q05 (dev)",
+  "question": "What did Hermione discover Nicolas Flamel is famous for?",
+  "expected_answer": "He is the only known maker of the Sorcerer's Stone.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 197,
+    "evidence": "is the only known maker of the Sorcerer’s Stone!"
+   }
+  ],
+  "evidence_notes": [
+   "p197: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "origin": "day06 q06 (dev)",
+  "question": "How did Hermione manage to attend all of her lessons during the year?",
+  "expected_answer": "She used a Time-Turner that Professor McGonagall gave her on the first day back.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 906,
+    "evidence": "It’s called a Time-Turner,” Hermione whispered, “and I got it from Professor McGonagall on our first day back. I’ve been using it all year to get to all my lessons."
+   }
+  ],
+  "evidence_notes": [
+   "p906: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "type": "dieu_kien",
+  "origin": "day06 q07 (dev)",
+  "question": "Under what condition can a house-elf like Dobby be set free?",
+  "expected_answer": "Only if his masters present him with clothes (the family avoids passing him even a sock).",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 430,
+    "evidence": "Dobby can only be freed if his masters present him with clothes, sir."
+   }
+  ],
+  "evidence_notes": [
+   "p430: exact"
+  ]
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "origin": "day06 q08 (dev)",
+  "question": "When the barrier to the platform would not let them through, how did Ron propose they get to school?",
+  "expected_answer": "By flying Mr. Weasley's car to Hogwarts.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 338,
+    "evidence": "We can fly the car to Hogwarts!"
+   }
+  ],
+  "evidence_notes": [
+   "p338: exact"
+  ]
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "origin": "day06 q09 (dev)",
+  "question": "How did Tom Riddle show Harry that he and Lord Voldemort are the same person?",
+  "expected_answer": "He wrote TOM MARVOLO RIDDLE in the air with Harry's wand and rearranged the letters into I AM LORD VOLDEMORT.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 542,
+    "evidence": "the letters of his name rearranged themselves:\nI AM LORD VOLDEMORT"
+   }
+  ],
+  "evidence_notes": [
+   "p542: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "type": "truc_tiep",
+  "origin": "day06 q10 (dev)",
+  "question": "What item did Lucius Malfoy unknowingly give Dobby that set him free?",
+  "expected_answer": "A sock (Harry's sock, which Malfoy threw aside and Dobby caught).",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 562,
+    "evidence": "Master has given a sock,” said the elf in wonderment. “Master gave it to Dobby."
+   }
+  ],
+  "evidence_notes": [
+   "p562: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "origin": "day06 q11 (dev)",
+  "question": "What does Lupin say ultimately defeats a boggart?",
+  "expected_answer": "Laughter: forcing it to take a shape you find amusing (with the Riddikulus charm).",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 684,
+    "evidence": "the thing that really finishes a boggart is laughter. What you need to do is force it to assume a shape that you find amusing."
+   }
+  ],
+  "evidence_notes": [
+   "p684: exact"
+  ]
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "type": "truc_tiep",
+  "origin": "day06 q12 (dev)",
+  "question": "What incantation does Lupin teach Harry for producing a Patronus?",
+  "expected_answer": "Expecto patronum!",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 772,
+    "evidence": "The incantation is this —” Lupin cleared his throat. “Expecto Patronum!"
+   }
+  ],
+  "evidence_notes": [
+   "p772: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "type": "metadata_filter",
+  "origin": "day06 q13 (dev)",
+  "question": "What password let the students into Gryffindor Tower at the start of the year?",
+  "expected_answer": "Caput Draconis.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 121,
+    "evidence": "“Caput Draconis,” said Percy, and the portrait swung forward"
+   }
+  ],
+  "filter": {
+   "book_no": 1
+  },
+  "evidence_notes": [
+   "p121: Day 6 quote spans two chunks; kept the half containing the answer"
+  ]
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "type": "metadata_filter",
+  "origin": "day06 q14 (dev)",
+  "question": "Harry got an unsigned Christmas present this year. What was it and what did the note say?",
+  "expected_answer": "An Invisibility Cloak; the note said his father left it in the sender's possession, it was time it was returned, and to use it well.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 182,
+    "evidence": "pulled off the Cloak and seized the letter. Written in narrow, loopy writing he had never seen before were the following words:\nYour father left this in my possession before he died. It is time it was returned to you.\nUse it well."
+   }
+  ],
+  "filter": {
+   "book_no": 1
+  },
+  "evidence_notes": [
+   "p182: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "type": "metadata_filter",
+  "origin": "day06 q15 (dev)",
+  "question": "Who did Dumbledore announce as the new Defense Against the Dark Arts teacher at the start-of-term feast?",
+  "expected_answer": "Professor Lupin.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 650,
+    "evidence": "Professor Lupin, who has kindly consented to fill the post of Defense Against the Dark Arts teacher."
+   }
+  ],
+  "filter": {
+   "book_no": 3
+  },
+  "evidence_notes": [
+   "p650: exact"
+  ]
+ },
+ {
+  "id": "q16",
+  "split": "dev",
+  "type": "metadata_filter",
+  "origin": "day06 q16 (test)",
+  "question": "What birthday present did Hagrid send Harry this year?",
+  "expected_answer": "The Monster Book of Monsters (a biting book), with a card saying it would be useful next year.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 582,
+    "evidence": "emblazoned with the golden title The Monster Book of Monsters"
+   },
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 583,
+    "evidence": "The Monster Book shuddered angrily, but could no longer flap and snap, so Harry threw it down on the bed and reached for Hagrid’s card.\nDear Harry,\nHappy birthday!\nThink you might find this useful for next year."
+   }
+  ],
+  "filter": {
+   "book_no": 3
+  },
+  "evidence_notes": [
+   "p582: exact",
+   "p583: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q17",
+  "split": "dev",
+  "type": "metadata_filter",
+  "origin": "day06 q17 (test)",
+  "question": "Which broomstick model arrived for Harry in a parcel, and why was he told to keep it quiet?",
+  "expected_answer": "A Nimbus Two Thousand; the sender did not want everybody knowing he had a broomstick or they would all want one.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 151,
+    "evidence": "It contains your new Nimbus Two Thousand, but I don’t want everybody knowing you’ve got a broomstick or they’ll all want one."
+   }
+  ],
+  "filter": {
+   "book_no": 1
+  },
+  "evidence_notes": [
+   "p151: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q18",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "origin": "day06 q18 (test)",
+  "question": "What service does the Knight Bus provide, and how do you call it?",
+  "expected_answer": "Emergency transport for stranded witches or wizards; stick out your wand hand and step on board.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 600,
+    "evidence": "Welcome to the Knight Bus, emergency transport for the stranded witch or wizard. Just stick out your wand hand, step on board, and we can take you anywhere you want to go."
+   }
+  ],
+  "evidence_notes": [
+   "p600: exact"
+  ]
+ },
+ {
+  "id": "q19",
+  "split": "dev",
+  "type": "dieu_kien",
+  "origin": "day06 q19 (test)",
+  "question": "What is the only thing a basilisk runs away from, and what does it do to the creature?",
+  "expected_answer": "The crowing of a rooster, which is fatal to it.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 523,
+    "evidence": "the Basilisk flees\nonly from the crowing of the rooster, which is fatal to it"
+   },
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 524,
+    "evidence": "The Basilisk flees only from the crowing of the rooster, which is fatal to it"
+   }
+  ],
+  "evidence_notes": [
+   "p523: normalized quotes/dashes, copied verbatim from chunk",
+   "p524: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "q20",
+  "split": "dev",
+  "type": "dieu_kien",
+  "origin": "day06 q20 (test)",
+  "question": "Under what condition could someone get the Stone out of the Mirror of Erised?",
+  "expected_answer": "Only someone who wanted to find the Stone but not use it could get it; others would just see themselves making gold or drinking the Elixir of Life.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 267,
+    "evidence": "only one who wanted to find the Stone — find it, but not use it — would be able to get it, otherwise they’d just see themselves making gold or drinking Elixir of Life."
+   }
+  ],
+  "evidence_notes": [
+   "p267: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "type": "truc_tiep",
+  "origin": "day07 new (B1 ch9)",
+  "question": "What does Neville's Remembrall do to show that he has forgotten something?",
+  "expected_answer": "It turns red (the smoke inside glows scarlet).",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 134,
+    "evidence": "this tells you if there’s something you’ve forgotten to do. Look, you hold it tight like this and if it turns red"
+   }
+  ],
+  "evidence_notes": [
+   "p134: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "origin": "day07 new (B1 ch14)",
+  "question": "How did Hagrid come to own the dragon egg?",
+  "expected_answer": "He won it in a game of cards with a stranger while having drinks down in the village the night before.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 209,
+    "evidence": "“Won it,” said Hagrid. “Las’ night. I was down in the village havin’ a few drinks an’ got into a game o’ cards with a stranger."
+   }
+  ],
+  "evidence_notes": [
+   "p209: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "type": "dieu_kien",
+  "origin": "day07 new (B3 ch10)",
+  "question": "What do you have to do to make the Marauder's Map go blank again?",
+  "expected_answer": "Tap it with your wand and say \"Mischief managed!\"",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 735,
+    "evidence": "Just tap it again and say, ‘Mischief managed!’ And it’ll go blank."
+   },
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 736,
+    "evidence": "tapped it with the tip of his wand, and muttered, “Mischief managed!” The map went blank at once."
+   }
+  ],
+  "evidence_notes": [
+   "p735: normalized quotes/dashes, copied verbatim from chunk",
+   "p736: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "type": "dieu_kien",
+  "origin": "day07 new (B3 ch11)",
+  "question": "Under what condition would Professor McGonagall give Harry his Firebolt back?",
+  "expected_answer": "Only once they were sure it was jinx-free: it first had to be checked for jinxes (Madam Hooch and Professor Flitwick would strip it down).",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 766,
+    "evidence": "You will have it back if we are sure it is jinx-free."
+   }
+  ],
+  "evidence_notes": [
+   "p766: exact"
+  ]
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "type": "metadata_filter",
+  "origin": "day07 new (B3 ch9)",
+  "question": "Which team did Gryffindor end up playing in their first Quidditch match of the year?",
+  "expected_answer": "Hufflepuff (Slytherin pulled out, claiming their Seeker's arm was still injured).",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 713,
+    "evidence": "“We’re not playing Slytherin!” he told them, looking very angry. “Flint’s just been to see me. We’re playing Hufflepuff instead.”"
+   }
+  ],
+  "filter": {
+   "book_no": 3
+  },
+  "evidence_notes": [
+   "p713: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "origin": "day07 new (B2 ch12)",
+  "question": "Why did Hermione's Polyjuice Potion go wrong?",
+  "expected_answer": "The hair she used was a cat hair (Millicent Bulstrode must have a cat), and the potion is not meant for animal transformations.",
+  "gold": [
+   {
+    "source_id": "hp-complete-collection-pottermore",
+    "page": 470,
+    "evidence": "“It was a c-cat hair!” she howled. “M-Millicent Bulstrode m-must have a cat! And the p-potion isn’t supposed to be used for animal transformations!”"
+   }
+  ],
+  "evidence_notes": [
+   "p470: normalized quotes/dashes, copied verbatim from chunk"
+  ]
+ }
+]
